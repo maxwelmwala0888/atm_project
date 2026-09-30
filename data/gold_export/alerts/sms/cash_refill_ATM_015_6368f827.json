@@ -1,0 +1,8 @@
+{
+  "to": "CIT_TEAM",
+  "from": "ATM_OPS",
+  "priority": "P2",
+  "body": "[P2] ATM ATM_015 (Dedza) cash low: 99,164 MWK. Refill needed within 24h.",
+  "sent_at": "2026-09-30T17:03:26.854263",
+  "atm_id": "ATM_015"
+}

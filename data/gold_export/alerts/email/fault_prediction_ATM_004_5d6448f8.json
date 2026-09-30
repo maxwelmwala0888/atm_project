@@ -1,0 +1,8 @@
+{
+  "to": "ops@bank.example",
+  "subject": "[P3] Fault risk: ATM_004",
+  "body": "ATM ATM_004 in Lilongwe (Central)\nModel: Diebold DN200\nSeverity: low\nFaults: 1 Warnings: 0\nComponents: no component data",
+  "priority": "P3",
+  "sent_at": "2026-09-30T17:03:26.854263",
+  "atm_id": "ATM_004"
+}

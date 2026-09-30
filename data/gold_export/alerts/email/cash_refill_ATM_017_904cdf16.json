@@ -1,0 +1,8 @@
+{
+  "to": "ops@bank.example",
+  "subject": "[P2] Cash refill required: ATM_017",
+  "body": "ATM ATM_017 in Dedza (Central) dropped below minimum.\nCurrent: 92,432 MWK\nStatus: low",
+  "priority": "P2",
+  "sent_at": "2026-09-30T17:06:29.980041",
+  "atm_id": "ATM_017"
+}

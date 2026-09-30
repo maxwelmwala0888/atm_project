@@ -1,0 +1,8 @@
+{
+  "to": "FIELD_ENGINEER",
+  "from": "ATM_OPS",
+  "priority": "P3",
+  "body": "[P3] ATM ATM_016 (Zomba) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+  "sent_at": "2026-09-30T17:03:26.854263",
+  "atm_id": "ATM_016"
+}
