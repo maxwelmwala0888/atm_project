@@ -1,0 +1,600 @@
+{
+  "generated_at": "2026-09-30T17:06:29.980041",
+  "total_alerts": 65,
+  "by_type": {
+    "cash_refill": 19,
+    "fault_prediction": 46
+  },
+  "by_priority": {
+    "P1": 1,
+    "P2": 19,
+    "P3": 45
+  },
+  "alerts": [
+    {
+      "alert_id": "c244d027",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_001",
+      "city": "Kasungu",
+      "message": "[P2] ATM ATM_001 (Kasungu) cash low: 96,932 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "a6f3766c",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_002",
+      "city": "Mangochi",
+      "message": "[P2] ATM ATM_002 (Mangochi) cash low: 97,125 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "40b0acf4",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_003",
+      "city": "Zomba",
+      "message": "[P2] ATM ATM_003 (Zomba) cash low: 95,869 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "c0f0c52a",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_004",
+      "city": "Lilongwe",
+      "message": "[P2] ATM ATM_004 (Lilongwe) cash low: 94,922 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "d6c34ecf",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_005",
+      "city": "Nkhotakota",
+      "message": "[P2] ATM ATM_005 (Nkhotakota) cash low: 89,194 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "828a9d6c",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_006",
+      "city": "Mzuzu",
+      "message": "[P2] ATM ATM_006 (Mzuzu) cash low: 89,802 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "4d94edbe",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_007",
+      "city": "Salima",
+      "message": "[P2] ATM ATM_007 (Salima) cash low: 94,077 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "b89256e5",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_008",
+      "city": "Nkhotakota",
+      "message": "[P2] ATM ATM_008 (Nkhotakota) cash low: 97,554 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "55ef5f33",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_009",
+      "city": "Salima",
+      "message": "[P2] ATM ATM_009 (Salima) cash low: 94,930 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "77ddf9dd",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_011",
+      "city": "Lilongwe",
+      "message": "[P2] ATM ATM_011 (Lilongwe) cash low: 91,291 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "e0f1b0ee",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_012",
+      "city": "Mangochi",
+      "message": "[P2] ATM ATM_012 (Mangochi) cash low: 90,219 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "e9f6a494",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_013",
+      "city": "Mangochi",
+      "message": "[P2] ATM ATM_013 (Mangochi) cash low: 90,822 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "897bd7e6",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_014",
+      "city": "Zomba",
+      "message": "[P2] ATM ATM_014 (Zomba) cash low: 94,401 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "91b13c54",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_015",
+      "city": "Dedza",
+      "message": "[P2] ATM ATM_015 (Dedza) cash low: 99,164 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "9301b151",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_016",
+      "city": "Zomba",
+      "message": "[P2] ATM ATM_016 (Zomba) cash low: 99,356 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "904cdf16",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_017",
+      "city": "Dedza",
+      "message": "[P2] ATM ATM_017 (Dedza) cash low: 92,432 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "4efd0f2e",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_018",
+      "city": "Mangochi",
+      "message": "[P2] ATM ATM_018 (Mangochi) cash low: 92,211 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "8fd7bc54",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_019",
+      "city": "Lilongwe",
+      "message": "[P2] ATM ATM_019 (Lilongwe) cash low: 90,880 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "5143cdca",
+      "type": "cash_refill",
+      "priority": "P2",
+      "atm_id": "ATM_020",
+      "city": "Dedza",
+      "message": "[P2] ATM ATM_020 (Dedza) cash low: 91,078 MWK. Refill needed within 24h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "906c4739",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_001",
+      "city": "Kasungu",
+      "message": "[P3] ATM ATM_001 (Kasungu) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "51c42057",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_001",
+      "city": "Kasungu",
+      "message": "[P3] ATM ATM_001 (Kasungu) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "ee75a588",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_002",
+      "city": "Mangochi",
+      "message": "[P3] ATM ATM_002 (Mangochi) low fault risk. Components: dispenser:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "88843bea",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_002",
+      "city": "Mangochi",
+      "message": "[P3] ATM ATM_002 (Mangochi) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "30b445a1",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_002",
+      "city": "Mangochi",
+      "message": "[P3] ATM ATM_002 (Mangochi) low fault risk. Components: network:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "0a2c7a86",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_003",
+      "city": "Zomba",
+      "message": "[P3] ATM ATM_003 (Zomba) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "4d4a0329",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_004",
+      "city": "Lilongwe",
+      "message": "[P3] ATM ATM_004 (Lilongwe) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "b05b5337",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_004",
+      "city": "Lilongwe",
+      "message": "[P3] ATM ATM_004 (Lilongwe) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "c217416d",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_004",
+      "city": "Lilongwe",
+      "message": "[P3] ATM ATM_004 (Lilongwe) low fault risk. Components: card_reader:1, network:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "d0f4f80a",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_004",
+      "city": "Lilongwe",
+      "message": "[P3] ATM ATM_004 (Lilongwe) low fault risk. Components: network:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "d150c028",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_004",
+      "city": "Lilongwe",
+      "message": "[P3] ATM ATM_004 (Lilongwe) low fault risk. Components: network:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "6d60c2c5",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_005",
+      "city": "Nkhotakota",
+      "message": "[P3] ATM ATM_005 (Nkhotakota) low fault risk. Components: card_reader:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "aa9e33b6",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_005",
+      "city": "Nkhotakota",
+      "message": "[P3] ATM ATM_005 (Nkhotakota) low fault risk. Components: dispenser:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "00c7b14c",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_005",
+      "city": "Nkhotakota",
+      "message": "[P3] ATM ATM_005 (Nkhotakota) low fault risk. Components: printer:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "4bd21ff2",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_005",
+      "city": "Nkhotakota",
+      "message": "[P3] ATM ATM_005 (Nkhotakota) low fault risk. Components: printer:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "8ccebd45",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_006",
+      "city": "Mzuzu",
+      "message": "[P3] ATM ATM_006 (Mzuzu) low fault risk. Components: card_reader:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "abfd2168",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_007",
+      "city": "Salima",
+      "message": "[P3] ATM ATM_007 (Salima) low fault risk. Components: dispenser:1, printer:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "a2caa0da",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_007",
+      "city": "Salima",
+      "message": "[P3] ATM ATM_007 (Salima) low fault risk. Components: dispenser:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "4833d0f1",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_008",
+      "city": "Nkhotakota",
+      "message": "[P3] ATM ATM_008 (Nkhotakota) low fault risk. Components: network:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "1e03c96a",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_008",
+      "city": "Nkhotakota",
+      "message": "[P3] ATM ATM_008 (Nkhotakota) low fault risk. Components: card_reader:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "411c4b46",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_008",
+      "city": "Nkhotakota",
+      "message": "[P3] ATM ATM_008 (Nkhotakota) low fault risk. Components: card_reader:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "bec1700f",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_008",
+      "city": "Nkhotakota",
+      "message": "[P3] ATM ATM_008 (Nkhotakota) low fault risk. Components: printer:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "29396bd9",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_008",
+      "city": "Nkhotakota",
+      "message": "[P3] ATM ATM_008 (Nkhotakota) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "44124083",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_009",
+      "city": "Salima",
+      "message": "[P3] ATM ATM_009 (Salima) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "2c596a02",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_009",
+      "city": "Salima",
+      "message": "[P3] ATM ATM_009 (Salima) low fault risk. Components: network:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "b6b46e98",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_010",
+      "city": "Liwonde",
+      "message": "[P3] ATM ATM_010 (Liwonde) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "d7de40ed",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_010",
+      "city": "Liwonde",
+      "message": "[P3] ATM ATM_010 (Liwonde) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "e09b57bc",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_011",
+      "city": "Lilongwe",
+      "message": "[P3] ATM ATM_011 (Lilongwe) low fault risk. Components: card_reader:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "a53cc588",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_011",
+      "city": "Lilongwe",
+      "message": "[P3] ATM ATM_011 (Lilongwe) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "2aabab4a",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_011",
+      "city": "Lilongwe",
+      "message": "[P3] ATM ATM_011 (Lilongwe) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "25c6a306",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_011",
+      "city": "Lilongwe",
+      "message": "[P3] ATM ATM_011 (Lilongwe) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "45fdadbd",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_011",
+      "city": "Lilongwe",
+      "message": "[P3] ATM ATM_011 (Lilongwe) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "0212782f",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_013",
+      "city": "Mangochi",
+      "message": "[P3] ATM ATM_013 (Mangochi) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "24a41ae1",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_013",
+      "city": "Mangochi",
+      "message": "[P3] ATM ATM_013 (Mangochi) low fault risk. Components: card_reader:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "94201fde",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_013",
+      "city": "Mangochi",
+      "message": "[P3] ATM ATM_013 (Mangochi) low fault risk. Components: card_reader:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "869c19a3",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_013",
+      "city": "Mangochi",
+      "message": "[P3] ATM ATM_013 (Mangochi) low fault risk. Components: printer:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "8405db0b",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_014",
+      "city": "Zomba",
+      "message": "[P3] ATM ATM_014 (Zomba) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "a504a0a9",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_014",
+      "city": "Zomba",
+      "message": "[P3] ATM ATM_014 (Zomba) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "15486fcd",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_015",
+      "city": "Dedza",
+      "message": "[P3] ATM ATM_015 (Dedza) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "9ed3f90c",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_016",
+      "city": "Zomba",
+      "message": "[P3] ATM ATM_016 (Zomba) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "c1a7cff1",
+      "type": "fault_prediction",
+      "priority": "P1",
+      "atm_id": "ATM_016",
+      "city": "Zomba",
+      "message": "[P1] ATM ATM_016 (Zomba) high fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "3e166ba0",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_016",
+      "city": "Zomba",
+      "message": "[P3] ATM ATM_016 (Zomba) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "fc0de4a3",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_017",
+      "city": "Dedza",
+      "message": "[P3] ATM ATM_017 (Dedza) low fault risk. Components: printer:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "15d804fc",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_017",
+      "city": "Dedza",
+      "message": "[P3] ATM ATM_017 (Dedza) low fault risk. Components: printer:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "6ae8b804",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_018",
+      "city": "Mangochi",
+      "message": "[P3] ATM ATM_018 (Mangochi) low fault risk. Components: printer:1. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    },
+    {
+      "alert_id": "48bc868d",
+      "type": "fault_prediction",
+      "priority": "P3",
+      "atm_id": "ATM_019",
+      "city": "Lilongwe",
+      "message": "[P3] ATM ATM_019 (Lilongwe) low fault risk. Components: no component data. Dispatch engineer within 48h.",
+      "created_at": "2026-09-30T17:06:29.980041"
+    }
+  ]
+}

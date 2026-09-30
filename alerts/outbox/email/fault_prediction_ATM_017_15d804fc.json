@@ -1,0 +1,8 @@
+{
+  "to": "ops@bank.example",
+  "subject": "[P3] Fault risk: ATM_017",
+  "body": "ATM ATM_017 in Dedza (Central)\nModel: NCR SelfServ 34\nSeverity: low\nFaults: 1 Warnings: 0\nComponents: printer:1",
+  "priority": "P3",
+  "sent_at": "2026-09-30T17:06:29.980041",
+  "atm_id": "ATM_017"
+}

@@ -1,0 +1,8 @@
+{
+  "to": "ops@bank.example",
+  "subject": "[P3] Fault risk: ATM_002",
+  "body": "ATM ATM_002 in Mangochi (Southern)\nModel: Wincor ProCash\nSeverity: low\nFaults: 1 Warnings: 0\nComponents: no component data",
+  "priority": "P3",
+  "sent_at": "2026-09-30T17:03:26.854263",
+  "atm_id": "ATM_002"
+}

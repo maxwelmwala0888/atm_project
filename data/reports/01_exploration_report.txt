@@ -1,0 +1,96 @@
+======================================================================
+ATM NETWORK DATA EXPLORATION
+======================================================================
+
+--- ATM master (dim_atm_network.csv) ---
+  Shape   : 20 rows x 10 cols
+  Columns : ['atm_id', 'city', 'region', 'latitude', 'longitude', 'atm_type', 'atm_model', 'bank', 'installed_date', 'is_active']
+  Missing : 0 nulls
+  Numeric :
+           mean  std   min   max
+latitude  -14.1  1.0 -15.4 -11.5
+longitude  34.6  0.6  33.5  35.3
+
+--- Transactions (fct_atm_transactions.csv) ---
+  Shape   : 2,236,909 rows x 6 cols
+  Columns : ['atm_id', 'timestamp', 'tx_type', 'amount_mwk', 'card_type', 'success']
+  Missing : 0 nulls
+  Numeric :
+               mean      std  min      max
+amount_mwk  16399.1  16665.4  0.0  49999.0
+
+--- Cash levels (fct_atm_cash_levels.csv) ---
+  Shape   : 174,740 rows x 6 cols
+  Columns : ['atm_id', 'timestamp', 'cash_level_mwk', 'hourly_withdrawal_mwk', 'was_refilled', 'below_threshold']
+  Missing : 0 nulls
+  Numeric :
+                           mean       std      min       max
+cash_level_mwk         276006.4  129712.6  50002.0  500000.0
+hourly_withdrawal_mwk     768.4     542.4    240.0    3007.0
+
+--- Faults (fct_atm_faults.csv) ---
+  Shape   : 2,184 rows x 8 cols
+  Columns : ['atm_id', 'event_timestamp', 'fault_type', 'component', 'event_class', 'duration_mins', 'resolved', 'fault_occurred']
+  Missing : 3,276 nulls
+  Numeric :
+                 mean    std   min    max
+duration_mins   366.9  206.7  18.0  719.0
+fault_occurred    1.0    0.0   1.0    1.0
+
+--- Replenishments (fct_replenishments.csv) ---
+  Shape   : 280 rows x 5 cols
+  Columns : ['atm_id', 'refill_timestamp', 'amount_loaded_mwk', 'cit_team', 'downtime_mins']
+  Missing : 0 nulls
+  Numeric :
+                       mean   std       min       max
+amount_loaded_mwk  500000.0   0.0  500000.0  500000.0
+downtime_mins          53.9  20.0      20.0      89.0
+
+--- Weather (weather_lilongwe_2023.csv) ---
+  Shape   : 365 rows x 5 cols
+  Columns : ['date', 'temperature_2m_max', 'temperature_2m_min', 'precipitation_sum', 'windspeed_10m_max']
+  Missing : 0 nulls
+  Numeric :
+                    mean  std   min   max
+temperature_2m_max  27.2  3.1  20.4  35.9
+temperature_2m_min  15.6  3.2   7.6  21.6
+precipitation_sum    2.4  4.8   0.0  23.1
+windspeed_10m_max   16.4  3.9   6.7  30.7
+
+--- Holidays (malawi_holidays_2023.csv) ---
+  Shape   : 11 rows x 3 cols
+  Columns : ['date', 'name', 'localName']
+  Missing : 0 nulls
+
+--- ATM coverage by region ---
+region
+Central     11
+Northern     1
+Southern     8
+
+--- ATM coverage by type ---
+atm_type
+Drive-through    2
+Full-service     5
+Kiosk            6
+Mini             7
+
+--- Fault event breakdown ---
+fault_type   card_reader_error  cash_dispenser_jam  connectivity_loss  power_fluctuation  receipt_printer_failure  screen_fault  sensor_error
+event_class                                                                                                                                  
+fault                       90                  69                 73                 73                       81            85            75
+warning                    270                 207                219                219                      243           255           225
+
+--- Cash health ---
+  Refills               : 280
+  Hours below threshold : 0
+
+--- Transaction breakdown ---
+                   count  avg_amount
+tx_type                             
+balance_enquiry   448209         0.0
+deposit           224185         0.0
+transfer          111987         0.0
+withdrawal       1452528     25255.0
+
+  Overall success rate : 97.00%

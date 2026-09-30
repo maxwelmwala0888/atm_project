@@ -1,0 +1,12 @@
+atm_project:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres
+      port: 5432
+      user: atm
+      password: atm_pass
+      dbname: atm_warehouse
+      schema: gold
+      threads: 4
