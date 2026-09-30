@@ -1,0 +1,23 @@
+{
+  "name": "ATM Analytics",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "latest",
+      "moby": true,
+      "dockerDashComposeVersion": "v2"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11"
+    }
+  },
+  "forwardPorts": [8501, 5000, 8090, 8080, 9092, 5432],
+  "portsAttributes": {
+    "8501": { "label": "Streamlit", "visibility": "public" },
+    "5000": { "label": "MLflow",    "visibility": "public" },
+    "8090": { "label": "Airflow",   "visibility": "public" },
+    "8080": { "label": "Kafka UI",  "visibility": "public" }
+  },
+  "postCreateCommand": "sudo service docker start || true",
+  "remoteUser": "vscode"
+}
