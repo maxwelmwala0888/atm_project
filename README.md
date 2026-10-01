@@ -6,7 +6,7 @@ link : https://sturdy-capybara-v6j44xq76j43vp4-8501.app.github.dev/
 
 link2 : https://atmproject-x2sprdaztgg2bm5hzbkgmg.streamlit.app/
 
-cmd live stat :  /workspaces/atm_project/go.sh
+cmd live start :  /workspaces/atm_project/go.sh
 ---
 
 ## 📌 What this solves
