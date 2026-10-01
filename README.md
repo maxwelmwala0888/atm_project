@@ -3,6 +3,8 @@
 **Predictive operations for retail-banking ATM networks.** Forecasts cash depletion 72 hours ahead, predicts component failures before they happen, scores branch utilisation.
 
 link : https://sturdy-capybara-v6j44xq76j43vp4-8501.app.github.dev/
+
+link2 : https://atmproject-x2sprdaztgg2bm5hzbkgmg.streamlit.app/
 ---
 
 ## 📌 What this solves
